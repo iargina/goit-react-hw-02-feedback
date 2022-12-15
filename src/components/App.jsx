@@ -66,7 +66,7 @@ export class App extends Component {
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
-        <Section title="">
+        <Section title="Statistics">
           {this.state.good > 0 ||
           this.state.bad > 0 ||
           this.state.neutral > 0 ? (
