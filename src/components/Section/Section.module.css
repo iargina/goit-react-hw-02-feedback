@@ -1,0 +1,11 @@
+.title {
+  font-size: 50px;
+  font-weight: 500;
+}
+.feedbackDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 100px;
+}
