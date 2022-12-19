@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import css from './Notification.module.css';
+import PropTypes from 'prop-types';
 export class Notification extends Component {
   render() {
     return (
@@ -9,3 +10,6 @@ export class Notification extends Component {
     );
   }
 }
+Notification.propTypes = {
+  message: PropTypes.string.isRequired,
+};
